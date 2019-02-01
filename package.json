@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/KevanBritton/fcc_portfolio#readme",
   "devDependencies": {
-    "gulp": "^4.0.0"
+    "gulp": "^4.0.0",
+    "gulp-watch": "^5.0.1"
   }
 }
