@@ -1,0 +1,45 @@
+body {
+	margin: 0px;
+}
+
+h1 {
+
+}
+
+#navbar {
+	position: fixed;
+	top: 0px;
+	right: 0px;
+	left: 0px;
+	background-color: green;
+	z-index: 2;
+}
+
+.section-height {
+	height: 100vh;
+background-clip: padding-box;
+border-width: 0px;
+border-top: 60px;
+border-style: solid;
+border-color: transparent;
+	margin-top: -60px;
+}
+
+.content-container {
+	position: relative;
+	display: block;
+}
+
+#welcome-section {
+	padding-top: 60px;
+	background-color: red;
+}
+
+#projects {
+	background-color: blue;
+}
+
+#contact {
+	background-color: orange;
+}
+
