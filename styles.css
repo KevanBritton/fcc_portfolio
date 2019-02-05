@@ -37,6 +37,28 @@ border-color: transparent;
 
 #projects {
 	background-color: blue;
+	text-align: center;
+}
+
+#project-flex {
+	height: 70vh;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+
+}
+
+.project-title  {
+text-align: center;
+padding-bottom: 50px;
+margin: 0px 15px;
+width
+	/*margin: 10px 10px;*/
+}
+.project-img {
+	width: 50%;
+	/*margin: 0px 10px;*/
 }
 
 #contact {
