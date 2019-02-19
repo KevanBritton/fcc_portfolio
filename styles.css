@@ -1,9 +1,20 @@
 body {
 	margin: 0px;
+	font-family: arial;
 }
 
-h1 {
+h3 {
+font-size: 1.5rem;
+}
 
+form {
+	font-size: 1rem;
+	line-height: 2rem;
+}
+
+textarea {
+    width: 500px;
+    height: 200px;
 }
 
 #navbar {
@@ -11,9 +22,29 @@ h1 {
 	top: 0px;
 	right: 0px;
 	left: 0px;
-	background-color: green;
+	background-color: #4484ce;
 	z-index: 2;
+	height: 60px;
 }
+
+#navbar ul {
+	list-style-type: none;
+	position: absolute;
+	right: 6rem;
+	top: 1rem;
+}
+
+.nav-link-li {
+	position: relative;
+	display: inline-block;
+	font-family: arial;
+	text-decoration: none;
+	margin-left: 3rem;
+	color: black;
+	font-size: 1.1rem;
+	font-weight: 900;
+}
+
 
 .section-height {
 	height: 100vh;
@@ -28,15 +59,31 @@ border-color: transparent;
 .content-container {
 	position: relative;
 	display: block;
+	text-align: center;
+	font-size: 1.5rem;
+}
+
+.content-container h1 {
+	line-height: 1rem;
 }
 
 #welcome-section {
 	padding-top: 60px;
-	background-color: red;
+	background-color: #f9cf00;
+}
+
+#welcome-container {
+	margin-top: 20%;
+	font-size: 3rem;
+	line-height: 1rem;
+}
+
+#welcome-container h2 {
+	font-size: 1.5rem;
 }
 
 #projects {
-	background-color: blue;
+	background-color: #d9d9d9;
 	text-align: center;
 }
 
@@ -97,6 +144,6 @@ background-color: rgba(255,255,255,.4);
 
 
 #contact {
-	background-color: orange;
+	background-color: #f19f4d;
 }
 

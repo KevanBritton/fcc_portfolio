@@ -7,12 +7,13 @@
 <body>
 	<nav id="navbar">
 		<ul>
-			<a href="#projects"><li>Projects</li></a>
-			<a href="#contact"><li>Contact</li></a>
+			<a href="#welcome-section"><li class="nav-link-li">About</li></a>
+			<a href="#projects"><li class="nav-link-li">Projects</li></a>
+			<a href="#contact"><li class="nav-link-li">Contact</li></a>
 	</nav>
 
 <section id="welcome-section" class="section-height">
-	<div class="content-container">
+	<div class="content-container" id="welcome-container">
 	<h1>Kevin Britten</h1>
 	<h2>html | css | javascript</h2>
 </div>
@@ -21,7 +22,7 @@
 <section id="projects" class="section-height">
 	<div class="content-container" id="projects-jump">
 	<h1>Projects</h1>
-	<h2> Free Code Camp Responsive Web Design Projects </h2>
+	<h3> Free Code Camp Responsive Web Design Projects </h2>
 	<div id="project-flex">
 	<div class="project-title">
 		<a href="https://kevanbritton.github.io/fcc_tribute/" target="_blank">  <img src="./assets/tribute_thumbnail.jpeg" alt="Free Code Camp Tribute Page" class="project-img"> <div class="project-image-text-hider"> <p class="project-image-text"> Free Code Camp Tribute Page </p> </div></a>
@@ -42,10 +43,12 @@
 <section id="contact" class="section-height">
 	<div class="content-container" id="contacts-jump">
 	<h1> Tell me about your project! </h1>
-	<h2> I am happy to work on all projects large or small. Send me a description of your project for a quote.</h2>
+	<h3> I am happy to work on all projects large or small. Send me a description of your project for a quote.</h2>
 	<form id="contact-form" action="">
-		<input type="email" name="email">
-		<input type="text-field" name="work-description">
+		Email:
+		<input type="email" name="email"> </br>
+		Project Description: </br>
+		<textarea name="Text1" cols="45" rows="5" form="contact-form"></textarea> </br>
 		<input type="submit" name="submit">
 	</form>
 	</div>
